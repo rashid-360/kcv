@@ -42,25 +42,25 @@ function App() {
                 name: 'BSNL', 
                 icon: <Network className="w-8 h-8" />, 
                 color: 'blue',
-                speed: '200 Mbps'
+                // speed: '200 Mbps'
               },
               { 
                 name: 'RAIL Wire', 
                 icon: <Wifi className="w-8 h-8" />, 
                 color: 'red',
-                speed: '300 Mbps'
+                // speed: '300 Mbps'
               },
               { 
                 name: 'D Wan', 
                 icon: <Globe className="w-8 h-8" />, 
                 color: 'blue',
-                speed: '150 Mbps'
+                // speed: '150 Mbps'
               },
               { 
                 name: 'IDEA', 
                 icon: <Network className="w-8 h-8" />, 
                 color: 'red',
-                speed: '250 Mbps'
+                // speed: '250 Mbps'
               }
             ].map((service, index) => (
               <div 
@@ -77,7 +77,7 @@ function App() {
                     {service.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-3">{service.name}</h3>
-                  <div className="text-sm font-medium opacity-80">Up to</div>
+                  <div className="text-sm font-medium opacity-80"></div>
                   <div className="text-2xl font-bold mt-1">{service.speed}</div>
                 </div>
               </div>
